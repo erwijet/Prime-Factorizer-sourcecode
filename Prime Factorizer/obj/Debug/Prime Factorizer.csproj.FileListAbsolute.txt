@@ -1,0 +1,6 @@
+P:\projects\Prime Factorizer\Prime Factorizer\Prime Factorizer\bin\Debug\Prime Factorizer.exe.config
+P:\projects\Prime Factorizer\Prime Factorizer\Prime Factorizer\bin\Debug\Prime Factorizer.exe
+P:\projects\Prime Factorizer\Prime Factorizer\Prime Factorizer\bin\Debug\Prime Factorizer.pdb
+P:\projects\Prime Factorizer\Prime Factorizer\Prime Factorizer\obj\Debug\Prime Factorizer.csprojResolveAssemblyReference.cache
+P:\projects\Prime Factorizer\Prime Factorizer\Prime Factorizer\obj\Debug\Prime Factorizer.exe
+P:\projects\Prime Factorizer\Prime Factorizer\Prime Factorizer\obj\Debug\Prime Factorizer.pdb
