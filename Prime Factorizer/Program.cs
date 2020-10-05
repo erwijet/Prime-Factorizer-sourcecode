@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using static System.Console;
+
 namespace Prime_Factorizer
 {
     class Program
@@ -15,8 +17,8 @@ namespace Prime_Factorizer
         {
             get
             {
-                Console.Write("=> ");
-                string tmp = Console.ReadLine();
+                Write("=> ");
+                string tmp = ReadLine();
                 return tmp.ToLower();
             }
         }
@@ -57,7 +59,7 @@ namespace Prime_Factorizer
                     break;
                 //Clear?
                 else if (lastPrompt == "clear")
-                    Console.Clear();
+                    Clear();
 
                 //Moving on...
                 else
@@ -79,9 +81,9 @@ namespace Prime_Factorizer
                                 Console.Write("_");
                             }
                             if (num == Convert.ToInt32(lastPrompt))
-                                Console.Write(" ");
-                            Console.Write(indent);
-                            Console.WriteLine("{0}|{1}", i.ToString(), num.ToString());
+                                Write(" ");
+                            Write(indent);
+                            WriteLine("{0}|{1}", i.ToString(), num.ToString());
                             num = num / i;
                             indentInt += 4;
                             Console.Write(indent);
